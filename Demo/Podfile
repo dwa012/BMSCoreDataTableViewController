@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+
+pod "BMSCoreDataTableViewController", :git => 'https://github.com/dwa012/BMSCoreDataTableViewController.git'
