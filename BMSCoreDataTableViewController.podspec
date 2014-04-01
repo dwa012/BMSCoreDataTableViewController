@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "BMSCoreDataTableViewController"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A subclass of UITableViewController that abstracts the Core Data elements"
   s.description      = "See Readme"
   s.homepage         = "https://github.com/dwa012/BMSCoreDataTableViewController"
