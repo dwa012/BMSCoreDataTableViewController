@@ -98,7 +98,7 @@
 {
   [super viewDidLoad];
 
-  _managedObjectContext = [((UNOAppDelegate*)[[UIApplication sharedApplication] delegate]) managedObjectContext];
+  _managedObjectContext = [[[UIApplication sharedApplication] delegate] managedObjectContext];
 
   self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
