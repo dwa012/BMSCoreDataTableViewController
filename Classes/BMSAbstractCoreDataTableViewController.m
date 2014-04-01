@@ -6,7 +6,6 @@
 //
 
 #import "BMSAbstractCoreDataTableViewController.h"
-#import "UNOAppDelegate.h"
 
 @interface BMSAbstractCoreDataTableViewController ()
 
