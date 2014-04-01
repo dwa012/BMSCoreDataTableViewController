@@ -22,5 +22,5 @@ Daniel Ward,
 
 ## License
 
-BMSCoreDataTableViewController is available under the MIT license. See the LICENSE file for more info.
+BMSCoreDataTableViewController is available under the Apache V2.0 license. See the LICENSE file for more info.
 
