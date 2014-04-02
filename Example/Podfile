@@ -1,7 +1,3 @@
-pod "BMSCoreDataTableViewController", :path => "../BMSCoreDataTableViewController.podspec"
+platform :ios, '7.0'
 
-target "Demo" do
-end
-
-target "DemoTests" do
-end
+pod "BMSCoreDataTableViewController", :git => 'https://github.com/dwa012/BMSCoreDataTableViewController.git'
