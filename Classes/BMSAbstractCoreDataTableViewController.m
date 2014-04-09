@@ -212,6 +212,8 @@
   if ([[self fetchedSortDescriptors] count] > 0)
     [fetchRequest setSortDescriptors:[self fetchedSortDescriptors]];
 
+  // delete the cache if it exists, this was causing some issues for some users
+  [NSFetchedResultsController deleteCacheWithName:[self cacheName]];
 
   // Edit the section name key path and cache name if appropriate.
   // nil for section name key path means "no sections".
